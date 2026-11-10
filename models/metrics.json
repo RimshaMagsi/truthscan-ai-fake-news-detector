@@ -1,0 +1,34 @@
+{
+    "model_name": "Logistic Regression",
+    "dataset_size": 39097,
+    "accuracy": 0.9867007672634271,
+    "precision_fake": 0.9873843566021867,
+    "recall_fake": 0.9835241552638928,
+    "f1_fake": 0.9854504756575265,
+    "confusion_matrix": [
+        [
+            3522,
+            59
+        ],
+        [
+            45,
+            4194
+        ]
+    ],
+    "comparison": [
+        {
+            "model": "Logistic Regression",
+            "accuracy": 0.9867007672634271,
+            "precision": 0.9873843566021867,
+            "recall": 0.9835241552638928,
+            "f1": 0.9854504756575265
+        },
+        {
+            "model": "Multinomial Naive Bayes",
+            "accuracy": 0.9540920716112532,
+            "precision": 0.9515134529147982,
+            "recall": 0.9480592013404077,
+            "f1": 0.9497831864596447
+        }
+    ]
+}
